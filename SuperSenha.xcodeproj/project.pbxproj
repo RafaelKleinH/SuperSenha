@@ -13,6 +13,9 @@
 		9DD890F725F160F20012190F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD890F525F160F20012190F /* Main.storyboard */; };
 		9DD890F925F160F30012190F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD890F825F160F30012190F /* Assets.xcassets */; };
 		9DD890FC25F160F30012190F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD890FA25F160F30012190F /* LaunchScreen.storyboard */; };
+		9DD8910625F17D3C0012190F /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8910525F17D3C0012190F /* PasswordsViewController.swift */; };
+		9DD8910925F1A2A30012190F /* SecureTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8910825F1A2A30012190F /* SecureTipsViewController.swift */; };
+		9DD8910C25F1A3090012190F /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8910B25F1A3090012190F /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9DD890F825F160F30012190F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD890FB25F160F30012190F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD890FD25F160F40012190F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD8910525F17D3C0012190F /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		9DD8910825F1A2A30012190F /* SecureTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTipsViewController.swift; sourceTree = "<group>"; };
+		9DD8910B25F1A3090012190F /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				9DD890F125F160F20012190F /* SceneDelegate.swift */,
 				9DD890F325F160F20012190F /* ViewController.swift */,
 				9DD890F525F160F20012190F /* Main.storyboard */,
+				9DD8910825F1A2A30012190F /* SecureTipsViewController.swift */,
+				9DD8910B25F1A3090012190F /* PasswordGenerator.swift */,
+				9DD8910525F17D3C0012190F /* PasswordsViewController.swift */,
 				9DD890F825F160F30012190F /* Assets.xcassets */,
 				9DD890FA25F160F30012190F /* LaunchScreen.storyboard */,
 				9DD890FD25F160F40012190F /* Info.plist */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD890F425F160F20012190F /* ViewController.swift in Sources */,
+				9DD8910925F1A2A30012190F /* SecureTipsViewController.swift in Sources */,
+				9DD8910C25F1A3090012190F /* PasswordGenerator.swift in Sources */,
+				9DD8910625F17D3C0012190F /* PasswordsViewController.swift in Sources */,
 				9DD890F025F160F20012190F /* AppDelegate.swift in Sources */,
 				9DD890F225F160F20012190F /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RafaelHartmann.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = RafaelHartmann.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
